@@ -1,4 +1,3 @@
-# %%
 import os
 import torch
 import matplotlib.pyplot as plt
@@ -19,4 +18,3 @@ plt.plot(x.numpy(), y.numpy(), "o")
 plt.ylabel("Y")
 plt.xlabel("X")
 plt.savefig('./figs/data.png')
-# %%
