@@ -1,4 +1,3 @@
-# %%
 import os
 import torch
 import numpy as np
@@ -24,4 +23,3 @@ plt.ylabel('Y')
 plt.scatter(x.numpy(), y.numpy())
 plt.savefig('./figs/fit.png')
 plt.show()
-# %%
